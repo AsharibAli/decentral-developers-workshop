@@ -126,7 +126,7 @@ function App() {
         <Card className="w-full max-w-2xl p-8 shadow-lg">
           <CardHeader>
             <CardTitle className="text-center text-4xl font-bold mt-4">
-              💜 DD Blockchain Workshop 💜
+              💙 DD Blockchain Workshop 💙
             </CardTitle>
           </CardHeader>
           <CardContent className="flex flex-col items-center mt-4 space-y-6">
@@ -139,7 +139,7 @@ function App() {
             )}
             {!isConnected && (
               <Button
-                className="bg-purple-400 hover:bg-purple-700 text-black font-bold py-2 px-4 rounded-md mb-4"
+                className="bg-blue-400 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-md mb-4"
                 onClick={ConnectWallet}
                 variant="link"
               >
@@ -155,14 +155,14 @@ function App() {
               />
               <div className="flex space-x-4">
                 <Button
-                  className="bg-purple-300 hover:bg-purple-700 text-black font-bold py-1 px-6 rounded"
+                  className="bg-blue-400 hover:bg-blue-700 text-black font-bold py-1 px-6 rounded"
                   onClick={isConnected ? send : undefined}
                   disabled={!isConnected}
                 >
                   Send
                 </Button>
                 <Button
-                  className="bg-purple-300 hover:bg-purple-700 text-black font-bold py-1 px-6 rounded"
+                  className="bg-blue-400 hover:bg-blue-700 text-black font-bold py-1 px-6 rounded"
                   onClick={isConnected ? receive : undefined}
                   disabled={!isConnected}
                 >

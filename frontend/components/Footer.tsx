@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer text-center p-4 mt-8 w-full bg-white ">
       <div className="flex items-center justify-center space-x-4">
         <h1 className="text-xl text-black">
-          Built with 💜 by{" "}
+          Built with 💙 by{" "}
           <a
             href="https://www.asharib.xyz"
             target="_blank"
